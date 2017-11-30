@@ -1,0 +1,36 @@
+/* ==UserStyle==
+@name GitLab Dark theme
+@namespace github.com/miltador
+@version 0.0.0
+@description GitLab dark theme for Stylus/Stylish
+@author Vasyl Solovei <iam@miltador.pro>
+@homepageURL https://github.com/miltador/gitlab-dark
+@supportURL https://github.com/miltador/gitlab-dark/issues
+@license CC-BY-SA-4.0
+==/UserStyle== */
+@-moz-document domain("gitlab.com"),
+url-prefix("http://gitlab."),
+url-prefix("http://git."),
+url-prefix("https://gitlab."),
+url-prefix("https://git.") {
+	* {
+		background-color: #181818 !important;
+		border-color: gray !important;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p,
+	a,
+	span,
+	div,
+	time {
+		color: rgb(192, 192, 192) !important;
+	}
+	.btn-transparent {
+		color: rgb(192, 192, 192) !important;
+	}
+}
